@@ -7,6 +7,8 @@ A construction project browser built with AngularJS 1.8.3 and TypeScript.
 ### npm
 
 ```bash
+git clone https://github.com/handraromel/hubexo-angular-assessment.git
+cd hubexo-angular-assessment
 npm install
 npm run dev
 ```
