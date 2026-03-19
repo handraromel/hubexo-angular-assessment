@@ -1,0 +1,352 @@
+[
+  {
+    "id": "p-1001",
+    "project_name": "North Bridge Redevelopment",
+    "company": "ABC Construction",
+    "area": "Manchester",
+    "project_start": "2026-01-01 00:00:00",
+    "project_end": "2027-01-10 00:00:00",
+    "project_value": 1250000,
+    "description": "Redevelopment of bridge and surrounding access roads in the northern district."
+  },
+  {
+    "id": "p-1002",
+    "project_name": "Victoria Square Office Block",
+    "company": "Skyline Builders",
+    "area": "Birmingham",
+    "project_start": "2026-03-15 00:00:00",
+    "project_end": "2028-06-30 00:00:00",
+    "project_value": 8750000,
+    "description": "Construction of a 12-storey commercial office block in Victoria Square with underground parking."
+  },
+  {
+    "id": "p-1003",
+    "project_name": "Waterfront Apartments Phase 1",
+    "company": "Harbour Developments",
+    "area": "Bristol",
+    "project_start": "2026-05-01 00:00:00",
+    "project_end": "2028-02-28 00:00:00",
+    "project_value": 15200000,
+    "description": "Phase 1 of luxury waterfront residential apartments comprising 120 units with communal gardens."
+  },
+  {
+    "id": "p-1004",
+    "project_name": "Greenfield Solar Farm",
+    "company": "EcoEnergy Projects",
+    "area": "Cardiff",
+    "project_start": "2026-06-01 00:00:00",
+    "project_end": "2027-03-15 00:00:00",
+    "project_value": 4300000,
+    "description": "Installation of 5MW solar farm on greenfield site with grid connection infrastructure."
+  },
+  {
+    "id": "p-1005",
+    "project_name": "Edinburgh Royal Mile Hotel",
+    "company": "Highland Construction Group",
+    "area": "Edinburgh",
+    "project_start": "2026-02-01 00:00:00",
+    "project_end": "2028-09-30 00:00:00",
+    "project_value": 22000000,
+    "description": "5-star boutique hotel on the Royal Mile featuring 85 rooms, spa, and rooftop restaurant."
+  },
+  {
+    "id": "p-1006",
+    "project_name": "Clyde Gateway Industrial Park",
+    "company": "McAlister & Sons",
+    "area": "Glasgow",
+    "project_start": "2026-04-10 00:00:00",
+    "project_end": "2027-11-30 00:00:00",
+    "project_value": 6800000,
+    "description": "Mixed-use industrial park with 15 warehouse units and office space near the Clyde."
+  },
+  {
+    "id": "p-1007",
+    "project_name": "Leeds City Centre Tram Extension",
+    "company": "TransRail Engineering",
+    "area": "Leeds",
+    "project_start": "2026-01-15 00:00:00",
+    "project_end": "2029-06-30 00:00:00",
+    "project_value": 45000000,
+    "description": "3.5km tram line extension through Leeds city centre with 4 new stations and depot."
+  },
+  {
+    "id": "p-1008",
+    "project_name": "Thames Barrier Maintenance",
+    "company": "ABC Construction",
+    "area": "London",
+    "project_start": "2026-07-01 00:00:00",
+    "project_end": "2027-06-30 00:00:00",
+    "project_value": 3200000,
+    "description": "Annual structural maintenance and steel replacement works on the Thames Barrier."
+  },
+  {
+    "id": "p-1009",
+    "project_name": "Manchester Airport Terminal 4",
+    "company": "Skyline Builders",
+    "area": "Manchester",
+    "project_start": "2026-09-01 00:00:00",
+    "project_end": "2030-03-31 00:00:00",
+    "project_value": 85000000,
+    "description": "New terminal building at Manchester Airport with capacity for 12 million passengers annually."
+  },
+  {
+    "id": "p-1010",
+    "project_name": "Canary Wharf Residential Tower",
+    "company": "Harbour Developments",
+    "area": "London",
+    "project_start": "2026-03-01 00:00:00",
+    "project_end": "2029-12-31 00:00:00",
+    "project_value": 62000000,
+    "description": "42-storey luxury residential tower with 350 apartments, concierge, and ground-floor retail."
+  },
+  {
+    "id": "p-1011",
+    "project_name": "Cardiff Bay Sports Arena",
+    "company": "WelshBuild Ltd",
+    "area": "Cardiff",
+    "project_start": "2026-08-01 00:00:00",
+    "project_end": "2028-12-15 00:00:00",
+    "project_value": 28500000,
+    "description": "Multi-purpose sports arena seating 15,000 with retractable roof and hospitality suites."
+  },
+  {
+    "id": "p-1012",
+    "project_name": "Headingley Student Village",
+    "company": "Northern Developments",
+    "area": "Leeds",
+    "project_start": "2026-05-15 00:00:00",
+    "project_end": "2028-08-31 00:00:00",
+    "project_value": 9400000,
+    "description": "Purpose-built student accommodation with 480 beds, study areas, and communal facilities."
+  },
+  {
+    "id": "p-1013",
+    "project_name": "Clifton Suspension Bridge Restoration",
+    "company": "Heritage Restoration Co",
+    "area": "Bristol",
+    "project_start": "2026-04-01 00:00:00",
+    "project_end": "2027-10-31 00:00:00",
+    "project_value": 5600000,
+    "description": "Heritage restoration of ironwork, masonry, and deck surface on the iconic suspension bridge."
+  },
+  {
+    "id": "p-1014",
+    "project_name": "Glasgow Queen Street Station Upgrade",
+    "company": "TransRail Engineering",
+    "area": "Glasgow",
+    "project_start": "2026-01-10 00:00:00",
+    "project_end": "2028-04-30 00:00:00",
+    "project_value": 18500000,
+    "description": "Platform extensions, new concourse, and accessibility improvements at Queen Street Station."
+  },
+  {
+    "id": "p-1015",
+    "project_name": "Piccadilly Gardens Redesign",
+    "company": "Urban Design Associates",
+    "area": "Manchester",
+    "project_start": "2026-06-15 00:00:00",
+    "project_end": "2027-09-30 00:00:00",
+    "project_value": 3200000,
+    "description": "Public realm redesign including new green spaces, water features, and pedestrian walkways."
+  },
+  {
+    "id": "p-1016",
+    "project_name": "Jewellery Quarter Mixed Use",
+    "company": "Midland Properties",
+    "area": "Birmingham",
+    "project_start": "2026-07-01 00:00:00",
+    "project_end": "2028-11-30 00:00:00",
+    "project_value": 12300000,
+    "description": "Mixed-use development with 65 residential units, retail spaces, and a community hub."
+  },
+  {
+    "id": "p-1017",
+    "project_name": "Leith Docks Regeneration",
+    "company": "Highland Construction Group",
+    "area": "Edinburgh",
+    "project_start": "2026-10-01 00:00:00",
+    "project_end": "2029-03-31 00:00:00",
+    "project_value": 35000000,
+    "description": "Major waterfront regeneration including housing, commercial space, and a new marina."
+  },
+  {
+    "id": "p-1018",
+    "project_name": "Shoreditch Tech Campus",
+    "company": "Skyline Builders",
+    "area": "London",
+    "project_start": "2026-02-15 00:00:00",
+    "project_end": "2028-07-31 00:00:00",
+    "project_value": 28500000,
+    "description": "Purpose-built tech campus with co-working spaces, labs, and rooftop event space."
+  },
+  {
+    "id": "p-1019",
+    "project_name": "Cardiff Central Library",
+    "company": "WelshBuild Ltd",
+    "area": "Cardiff",
+    "project_start": "2026-03-01 00:00:00",
+    "project_end": "2027-12-31 00:00:00",
+    "project_value": 7200000,
+    "description": "New public library with digital learning centre, children's wing, and exhibition space."
+  },
+  {
+    "id": "p-1020",
+    "project_name": "Kirkstall Road Flood Defence",
+    "company": "Northern Developments",
+    "area": "Leeds",
+    "project_start": "2026-11-01 00:00:00",
+    "project_end": "2028-05-31 00:00:00",
+    "project_value": 8200000,
+    "description": "Flood defence walls, adjustable weirs, and pumping station along Kirkstall Road corridor."
+  },
+  {
+    "id": "p-1021",
+    "project_name": "Harbour Heights Apartments",
+    "company": "Harbour Developments",
+    "area": "Bristol",
+    "project_start": "2026-09-15 00:00:00",
+    "project_end": "2028-10-31 00:00:00",
+    "project_value": 11800000,
+    "description": "Residential development of 95 apartments with harbour views and shared amenity spaces."
+  },
+  {
+    "id": "p-1022",
+    "project_name": "Partick Cross Retail Centre",
+    "company": "McAlister & Sons",
+    "area": "Glasgow",
+    "project_start": "2026-05-01 00:00:00",
+    "project_end": "2027-08-31 00:00:00",
+    "project_value": 4300000,
+    "description": "Neighbourhood retail centre with 12 shop units, café space, and 80-space car park."
+  },
+  {
+    "id": "p-1023",
+    "project_name": "Digbeth Creative Quarter",
+    "company": "Urban Design Associates",
+    "area": "Birmingham",
+    "project_start": "2026-08-15 00:00:00",
+    "project_end": "2028-02-28 00:00:00",
+    "project_value": 6800000,
+    "description": "Conversion of industrial buildings into artist studios, galleries, and event spaces."
+  },
+  {
+    "id": "p-1024",
+    "project_name": "Stockport Viaduct Repairs",
+    "company": "ABC Construction",
+    "area": "Manchester",
+    "project_start": "2026-04-01 00:00:00",
+    "project_end": "2027-02-28 00:00:00",
+    "project_value": 2100000,
+    "description": "Structural repairs, brick repointing, and waterproofing of the Grade II listed viaduct."
+  },
+  {
+    "id": "p-1025",
+    "project_name": "King's Cross Data Centre",
+    "company": "EcoEnergy Projects",
+    "area": "London",
+    "project_start": "2026-06-01 00:00:00",
+    "project_end": "2027-11-30 00:00:00",
+    "project_value": 15200000,
+    "description": "Tier 4 data centre with renewable energy sources, water cooling, and 99.999% uptime design."
+  },
+  {
+    "id": "p-1026",
+    "project_name": "Morningside Care Home",
+    "company": "Highland Construction Group",
+    "area": "Edinburgh",
+    "project_start": "2026-07-15 00:00:00",
+    "project_end": "2027-12-31 00:00:00",
+    "project_value": 4800000,
+    "description": "60-bed residential care home with dementia wing, therapy gardens, and staff quarters."
+  },
+  {
+    "id": "p-1027",
+    "project_name": "Roundhay Park Pavilion",
+    "company": "Northern Developments",
+    "area": "Leeds",
+    "project_start": "2026-03-01 00:00:00",
+    "project_end": "2027-01-31 00:00:00",
+    "project_value": 1800000,
+    "description": "New park pavilion with café, visitor centre, and public toilets in Roundhay Park."
+  },
+  {
+    "id": "p-1028",
+    "project_name": "Merchant City Lofts",
+    "company": "McAlister & Sons",
+    "area": "Glasgow",
+    "project_start": "2026-02-01 00:00:00",
+    "project_end": "2027-07-31 00:00:00",
+    "project_value": 9400000,
+    "description": "Conversion of Victorian warehouse into 40 luxury loft apartments with rooftop terrace."
+  },
+  {
+    "id": "p-1029",
+    "project_name": "Temple Meads Station Expansion",
+    "company": "TransRail Engineering",
+    "area": "Bristol",
+    "project_start": "2026-10-15 00:00:00",
+    "project_end": "2029-06-30 00:00:00",
+    "project_value": 32000000,
+    "description": "New platforms, ticket hall expansion, and multimodal transport interchange at Temple Meads."
+  },
+  {
+    "id": "p-1030",
+    "project_name": "Millennium Centre Extension",
+    "company": "WelshBuild Ltd",
+    "area": "Cardiff",
+    "project_start": "2026-11-01 00:00:00",
+    "project_end": "2028-06-30 00:00:00",
+    "project_value": 14500000,
+    "description": "Extension to the Millennium Centre adding rehearsal spaces, education wing, and backstage areas."
+  },
+  {
+    "id": "p-1031",
+    "project_name": "Salford Quays Footbridge",
+    "company": "ABC Construction",
+    "area": "Manchester",
+    "project_start": "2026-12-01 00:00:00",
+    "project_end": "2027-10-31 00:00:00",
+    "project_value": 2800000,
+    "description": "Pedestrian and cycle swing bridge connecting Salford Quays to Trafford Wharf."
+  },
+  {
+    "id": "p-1032",
+    "project_name": "Battersea Power Station Phase 3",
+    "company": "Harbour Developments",
+    "area": "London",
+    "project_start": "2026-01-20 00:00:00",
+    "project_end": "2029-09-30 00:00:00",
+    "project_value": 95000000,
+    "description": "Phase 3 residential and commercial development at the iconic Battersea Power Station site."
+  },
+  {
+    "id": "p-1033",
+    "project_name": "Edgbaston Cricket Ground Stand",
+    "company": "Midland Properties",
+    "area": "Birmingham",
+    "project_start": "2026-09-01 00:00:00",
+    "project_end": "2028-03-31 00:00:00",
+    "project_value": 18500000,
+    "description": "New 8,000-seat stand with corporate hospitality, media centre, and improved sightlines."
+  },
+  {
+    "id": "p-1034",
+    "project_name": "Arthur's Seat Visitor Centre",
+    "company": "Heritage Restoration Co",
+    "area": "Edinburgh",
+    "project_start": "2026-05-01 00:00:00",
+    "project_end": "2027-04-30 00:00:00",
+    "project_value": 2800000,
+    "description": "Eco-friendly visitor centre with exhibition space, café, and ranger station at Arthur's Seat."
+  },
+  {
+    "id": "p-1035",
+    "project_name": "Avonmouth Wind Turbine Array",
+    "company": "EcoEnergy Projects",
+    "area": "Bristol",
+    "project_start": "2026-08-01 00:00:00",
+    "project_end": "2027-09-30 00:00:00",
+    "project_value": 7200000,
+    "description": "Installation of 6 onshore wind turbines generating 18MW at the Avonmouth industrial estate."
+  }
+]

@@ -1,0 +1,92 @@
+<div class="project-list-layout">
+  <h2 class="mb-3">Construction Projects</h2>
+
+  <div class="card mb-3">
+    <div class="card-body">
+      <div class="form-row">
+        <div class="col-md-4 mb-2 mb-md-0">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search by project name..."
+            ng-model="$ctrl.searchText"
+          />
+        </div>
+        <div class="col-md-3 mb-2 mb-md-0">
+          <select class="custom-select" ng-model="$ctrl.selectedArea">
+            <option value="">All Areas</option>
+            <option ng-repeat="area in $ctrl.areas" ng-value="area">
+              {{area}}
+            </option>
+          </select>
+        </div>
+        <div class="col-md-3 mb-2 mb-md-0">
+          <select class="custom-select" ng-model="$ctrl.selectedCompany">
+            <option value="">All Companies</option>
+            <option ng-repeat="company in $ctrl.companies" ng-value="company">
+              {{company}}
+            </option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <button
+            class="btn btn-block"
+            ng-class="($ctrl.searchText || $ctrl.selectedArea || $ctrl.selectedCompany) ? 'btn-success' : 'btn-secondary'"
+            ng-click="$ctrl.clearFilters()"
+            ng-disabled="!$ctrl.searchText && !$ctrl.selectedArea && !$ctrl.selectedCompany"
+          >
+            Clear
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="table-scroll" ng-if="$ctrl.filteredProjects.length">
+    <table class="table table-hover table-striped">
+      <thead class="thead-dark">
+        <tr>
+          <th>Project Name</th>
+          <th>Company</th>
+          <th>Area</th>
+          <th>Start</th>
+          <th>End</th>
+          <th class="text-right">Value (GBP)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          ng-repeat="project in $ctrl.filteredProjects"
+          class="clickable-row"
+          ng-click="$ctrl.onRowClick(project.id)"
+        >
+          <td>
+            <a href="#!/projects/{{project.id}}">{{project.project_name}}</a>
+          </td>
+          <td>{{project.company}}</td>
+          <td>{{project.area}}</td>
+          <td>{{$ctrl.formatDate(project.project_start)}}</td>
+          <td>{{$ctrl.formatDate(project.project_end)}}</td>
+          <td class="text-right">
+            {{$ctrl.formatValue(project.project_value)}}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <not-found
+    ng-if="!$ctrl.filteredProjects.length"
+    icon="bi-search"
+    title="No projects found"
+    message="Try adjusting your search or filter criteria."
+  >
+    <button
+      class="btn btn-primary"
+      ng-click="$ctrl.clearFilters()"
+      ng-if="$ctrl.searchText || $ctrl.selectedArea || $ctrl.selectedCompany"
+    >
+      Clear All Filters
+    </button>
+  </not-found>
+</div>

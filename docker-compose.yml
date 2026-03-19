@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "4200:4200"
+    volumes:
+      - ./src:/app/src
+      - ./webpack.config.js:/app/webpack.config.js

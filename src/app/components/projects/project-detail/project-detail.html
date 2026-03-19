@@ -1,0 +1,65 @@
+<not-found
+  ng-if="$ctrl.notFound"
+  icon="bi-x-circle"
+  title="Project Not Found"
+  message="The project you&#39;re looking for doesn&#39;t exist or may have been removed."
+>
+  <a href="#!/projects" class="btn btn-primary">Back to Projects</a>
+</not-found>
+
+<div ng-if="!$ctrl.notFound">
+  <a href="#!/projects" class="btn btn-primary btn-sm mb-3">
+    <i class="bi bi-arrow-left"></i> Back to Projects
+  </a>
+
+  <div class="card">
+    <div class="card-header bg-dark text-white">
+      <h4 class="mb-0">{{$ctrl.project.project_name}}</h4>
+    </div>
+    <div class="card-body">
+      <div class="row mb-3">
+        <div class="col-sm-4">
+          <dl>
+            <dt class="text-muted">Company</dt>
+            <dd class="h6">{{$ctrl.project.company}}</dd>
+          </dl>
+        </div>
+        <div class="col-sm-4">
+          <dl>
+            <dt class="text-muted">Area</dt>
+            <dd class="h6">{{$ctrl.project.area}}</dd>
+          </dl>
+        </div>
+      </div>
+      <div class="row mb-3">
+        <div class="col-sm-4">
+          <dl>
+            <dt class="text-muted">Project Start</dt>
+            <dd class="h6">
+              {{$ctrl.formatDate($ctrl.project.project_start)}}
+            </dd>
+          </dl>
+        </div>
+        <div class="col-sm-4">
+          <dl>
+            <dt class="text-muted">Project End</dt>
+            <dd class="h6">{{$ctrl.formatDate($ctrl.project.project_end)}}</dd>
+          </dl>
+        </div>
+        <div class="col-sm-4">
+          <dl>
+            <dt class="text-muted">Project Value (GBP)</dt>
+            <dd class="h5 text-success font-weight-bold">
+              {{$ctrl.formatValue($ctrl.project.project_value)}}
+            </dd>
+          </dl>
+        </div>
+      </div>
+      <hr />
+      <dl>
+        <dt class="text-muted">Description</dt>
+        <dd class="lead">{{$ctrl.project.description}}</dd>
+      </dl>
+    </div>
+  </div>
+</div>
